@@ -26,4 +26,4 @@ class Setting {
     }
 }
 
-export default Setting;
+export { Setting };
