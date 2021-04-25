@@ -1,8 +1,13 @@
 import express from 'express';
 
+import { databaseConnection } from './database'
+
+
 const PORT = 3333;
 
 const app = express();
+
+databaseConnection.create();
 
 /*
  * GET = buscas
