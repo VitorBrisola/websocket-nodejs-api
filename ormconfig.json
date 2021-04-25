@@ -3,6 +3,6 @@
     "database": "./src/database/database.sqlite",
     "migrations": ["./src/migrations/**.ts"],
     "cli": {
-        "migrationsDir": "./src/migrations"
+        "migrationsDir": "./src/database/migrations"
     }
 }
